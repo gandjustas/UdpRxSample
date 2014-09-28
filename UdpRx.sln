@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22013.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpRx", "UdpRx\UdpRx.csproj", "{A2B403C3-E5B9-4EF6-B4E9-899A0719C738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpServer", "UdpServer\UdpServer.csproj", "{3C207908-C1D7-48F5-9867-262A21F8872D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpClient", "UdpClient\UdpClient.csproj", "{3140E8FA-46F4-4D06-9923-CADEE5166B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B403C3-E5B9-4EF6-B4E9-899A0719C738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B403C3-E5B9-4EF6-B4E9-899A0719C738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B403C3-E5B9-4EF6-B4E9-899A0719C738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B403C3-E5B9-4EF6-B4E9-899A0719C738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C207908-C1D7-48F5-9867-262A21F8872D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C207908-C1D7-48F5-9867-262A21F8872D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C207908-C1D7-48F5-9867-262A21F8872D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C207908-C1D7-48F5-9867-262A21F8872D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3140E8FA-46F4-4D06-9923-CADEE5166B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3140E8FA-46F4-4D06-9923-CADEE5166B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3140E8FA-46F4-4D06-9923-CADEE5166B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3140E8FA-46F4-4D06-9923-CADEE5166B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
