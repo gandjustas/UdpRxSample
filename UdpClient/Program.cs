@@ -14,16 +14,17 @@ namespace UdpClient
         {
 
             var device = new DeviceClient(new System.Net.Sockets.UdpClient());
+
             while (true)
             {
                 Console.Write("Enter Port");
                 var port = int.Parse(Console.ReadLine());
                 Console.Write("Enter Message");
                 var msg = Console.ReadLine();
-
                 var bytes = Encoding.UTF8.GetBytes(msg);
-                var result = device.SendReceiveUdpAsync(bytes, "127.0.0.1", port, 100000).Wait();
-                Console.WriteLine(Encoding.UTF8.GetString(result));
+
+                device.SendReceiveUdpAsync(bytes, "127.0.0.1", port, 1000).Subscribe(result =>
+                    Console.WriteLine(Encoding.UTF8.GetString(result)));
 
             }
         }
